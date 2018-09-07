@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InvoiceListComponent implements OnInit {
 
+  public invoice: Invoice = {
+    id: 1,
+    name: 'Invoice001'
+  };
+
   constructor() { }
 
   ngOnInit() {
