@@ -1,70 +1,55 @@
 <div>
 
+  <header>
 
-  <h1> Rechnung, Nummer </h1>
-  <p>Rechnungsdatum. </p>
-  <p>Fälligkeitsdatum. </p>
-  <p>SEPA-Mandatsreferenz</p>
-  <h2> Kunde: BspFirma </h2>
-  <table>
+    <div class="logo">
+      <h1>SednaSoft</h1>
+      <p>Software Engineering Agency</p>
+    </div><!-- class="logo" -->
 
-    <tr>
-      <td>Rechnungsadresse:</td>
-      <td>exampleStraße 07, 12345 Musterstadt</td>
-    </tr>
-    <tr>
-      <td>USt.ID.Nrn.:</td>
-      <td>345trd</td>
-    </tr>
-    <tr>
+    <div class="adress-window">
+      <div class="postage-info">
+        SednaSoft GbR, Biesnitzer Straße 8, 02826 Görlitz
+      </div><!-- class="postage-info" -->
+      <p>Firma</p>
+      <p>Ansprechpartner</p>
+      <p>Straße und Hausnummer</p>
+      <p>PLZ Ort</p>
+      <p>LAND</p>
       <button type="button">Kundendaten ändern</button>
-    </tr>
+    </div><!-- class="adress-window" -->
 
-  </table>
-  <h2> Empfänger: SednaSoft </h2>
-  <table>
-    <!-- tr -->
-    <tr>
-      <td>Anschrift</td>
-      <td>Biesnitzer Straße 8, 02826 Görlitz</td>
-    </tr>
-    <tr>
-      <td>USt.ID.Nrn.:</td>
-      <td>Sedna777</td>
-    </tr>
-    <tr>
-      <td>Bank:</td>
-      <td>Musterbank</td>
-    </tr>
-    <tr>
-      <td>KontoNr:</td>
-      <td>67890</td>
-    </tr>
-    <tr>
-      <td>Bankleitzahl:</td>
-      <td>333444</td>
-    </tr>
-    <tr>
-      <td>IBAN:</td>
-      <td>IB874</td>
-    </tr>
-    <tr>
-      <td>BIC:</td>
-      <td>13749</td>
-    </tr>
-    <tr>
-      <td>Verwendungszweck (bitte unbedingt angeben:</td>
-      <td> 67890</td>
-    </tr>
-    <tr>
-      <button type="button">Daten Leistungserbringer ändern</button>
-    </tr>
-    <!--/tr -->
-  </table>
+    <div class="contact-block">
+      <strong>SednaSoft GbR</strong>
+      <p>A. Schaffhirt & A. Wünsche</p>
+      <p>Biesnitzer Straße 8</p>
+      <p>02826 Görlitz</p>
+      <p>GERMANY</p>
+      <dl>
+        <dt>Fon</dt>
+        <dd>+49-3581-3221063</dd>
+        <dt>Fax</dt>
+        <dd>+49-3581-6858089</dd>
+        <dt>Mail</dt>
+        <dd>kontakt@sedna-soft.de</dd>
+        <dt>Web</dt>
+        <dd>http://sedna-soft.de</dd>
+      </dl>
+    </div><!-- class="contact-block" -->
 
-  <div>
+    <div class="city-date">Görlitz, 2018-01-08</div>
+  </header>
 
-    <table style="width:100%">
+
+  <main>
+    <dl>
+      <dt><b>Rechnungsnummer</b></dt>
+      <dd><b>201800xx</b></dd>
+      <dt>Leistungszeitraum</dt>
+      <dd>2018-01-01 bis 2018-12-31</dd>
+
+    </dl>
+    <table>
       <tbody>
       <tr>
         <th>Leistungsbeschreibung</th>
@@ -108,9 +93,15 @@
           <button type="button">Posten bearbeiten</button>
         </td>
       </tr>
+      <tr>
+        <td class="tablefooter" colspan="3"></td>
+        <td class="tablefooter">Summe Netto</td>
+        <td class="tablefooter">3500€</td>
+        <td class="tablefooter" colspan="2"></td>
+      </tr>
       </tbody>
     </table>
-  </div>
+  </main>
 
   <button type="button">Posten hinzufuegen</button>
   <button>Speichern</button>
