@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Invoice} from '../invoice';
 
 @Component({
   selector: 'app-invoice-list',
